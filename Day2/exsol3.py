@@ -1,3 +1,10 @@
+#Take input from the user and print the dictionary for Task and their Data. If user input is 0, then it will print a different dictionary that has a failed status.
+#If the number is other than 0, then print the dictionary having its data as the multiples of the user input
+
+
+
+
+
 def presentation(number):
     temp_dict ={
             "statuscode" : -1,
