@@ -5,7 +5,7 @@ class Logic:
 
     def __init__(self):
         self.tasks = []
-    def add(self, task):
+    def add_sort(self, task):
         for i in self.tasks:
             if i.taskId == task.taskId:
                 return False 
@@ -14,6 +14,11 @@ class Logic:
     
     def view_all(self):
         return self.tasks
+    
+    def task_sort(self):
+        sorted(self.tasks ,key = lambda y : y.taskId)
+
+    
 
 
 
