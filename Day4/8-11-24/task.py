@@ -12,6 +12,6 @@ class Task:
 
 
 
-    def f3(self):
-        print('f3 pass')
-    pass
+    # def f3(self):
+    #     print('f3 pass')
+    # pass
