@@ -1,14 +1,3 @@
-# class Logic:
-#     def __init__(self):
-#         self.product = []
-    
-    # def add_product(self,new_product):
-    #     for i in self.product:
-    #         if i.ID == new_product.ID:
-    #             return False
-    #     self.product.append(new_product)
-    #     return True
-
         
     
 # class Logic:
@@ -84,6 +73,8 @@
 #                 product.price = updated_product.new_price
 #                 return True
 #         return False
+
+
 class Logic:
     def __init__(self):
         self.products = []  

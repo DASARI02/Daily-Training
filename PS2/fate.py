@@ -11,3 +11,9 @@ if __name__ == "__main__":
     print(a.place_order(p2))
     print(a.place_order(p1))
 
+    b = a.view_all()
+    print()
+    for i in b:
+        print(i)
+
+

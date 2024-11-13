@@ -1,11 +1,16 @@
+import csv
 class Product:
     def __init__(self, Id, name, Price):
         self.ID = Id
         self.name = name 
         self.Price = Price
 
-    def __str__(self):
+    def __str__(cls, self):
         return f"product {self.ID}, name of product {self.name}, price of product{self.Price}"
+    def write_to_csv(self):
+        return [self.Id, self.name, self.Price]
+    
+    
     
     # def __str__(self):
     #     price_info = f"Price: {self.price}"
