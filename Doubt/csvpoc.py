@@ -30,7 +30,7 @@ def read_from_csv(filename):
             emp_object = Emp.from_csv_row(row)
         return emp_object
 
-emp_object_file = read_from_csv("poc.csv")
-print(emp_object_file)
-# emp_object = Emp(1,100)
-# write_to_csv(emp_object,"poc.csv")
+# emp_object_file = read_from_csv("poc.csv")
+# print(emp_object_file)
+emp_object = Emp(1,100)
+write_to_csv(emp_object,"poc.csv")

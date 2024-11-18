@@ -10,6 +10,8 @@ class Product:
     def write_to_csv(self):
         return [self.Id, self.name, self.Price]
     
+    @classmethod 
+    
     
     
     # def __str__(self):
