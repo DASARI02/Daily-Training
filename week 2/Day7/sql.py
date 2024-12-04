@@ -61,3 +61,7 @@ for u in users:
 # Close the cursor and connection
 cursor.close()
 connection.close()
+
+
+
+
